@@ -17,11 +17,7 @@ class Main {
 
   public static void VowelCounter(String wordPhrase){
   
-  int aCounter = 0;
-  int eCounter = 0;
-  int iCounter = 0;
-  int oCounter = 0;
-  int uCounter = 0;
+  int aCounter, eCounter, iCounter, oCounter, uCounter;
   
   for (int counter = 0; counter < wordPhrase.length(); counter++){
     char nextChar = wordPhrase.charAt(counter);
